@@ -1,0 +1,6 @@
+---
+owner-repo: wez/atomicparsley
+desc:   AtomicParsley is a lightweight command line program for reading, parsing and setting metadata into MPEG-4 files, in particular, iTunes-style metadata. 
+---
+
+# atomicparsley
