@@ -23,7 +23,16 @@ x install atomicparsley
 - **Latest**: `20240608.083822.1ed9031` (2024-06-08)
 - **Last commit**: 2024-12-04
 - **Assets in release**: 5
-- **Published**: 2024-06-08T15:39:33Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [AtomicParsleyAlpine.zip](https://github.com/wez/atomicparsley/releases/download/20240608.083822.1ed9031/AtomicParsleyAlpine.zip) | 162.1 KiB | `other` |
+| [AtomicParsleyLinux.zip](https://github.com/wez/atomicparsley/releases/download/20240608.083822.1ed9031/AtomicParsleyLinux.zip) | 158.8 KiB | `other` |
+| [AtomicParsleyMacOS.zip](https://github.com/wez/atomicparsley/releases/download/20240608.083822.1ed9031/AtomicParsleyMacOS.zip) | 133.3 KiB | `native/darwin/x64` |
+| [AtomicParsleyWindows.zip](https://github.com/wez/atomicparsley/releases/download/20240608.083822.1ed9031/AtomicParsleyWindows.zip) | 121.0 KiB | `native/win/x64` |
+| [AtomicParsleyWindowsX86.zip](https://github.com/wez/atomicparsley/releases/download/20240608.083822.1ed9031/AtomicParsleyWindowsX86.zip) | 112.3 KiB | `native/win/x64` |
 
 ## Popularity
 
@@ -58,8 +67,8 @@ Total: **20,556** lines of code across **26** files in the top 5 languages.
 Install metadata for atomicparsley lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `atomicparsley` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/atomicparsley.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/atomicparsley.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:44:22Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:34:48Z._
