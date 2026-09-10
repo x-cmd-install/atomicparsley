@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 162630,
       "digest": null,
-      "download_count": 15627,
+      "download_count": 15629,
       "created_at": "2024-06-08T15:39:48Z",
       "updated_at": "2024-06-08T15:39:48Z",
       "browser_download_url": "https://github.com/wez/atomicparsley/releases/download/20240608.083822.1ed9031/AtomicParsleyLinux.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 136461,
       "digest": null,
-      "download_count": 18809,
+      "download_count": 18813,
       "created_at": "2024-06-08T15:39:33Z",
       "updated_at": "2024-06-08T15:39:33Z",
       "browser_download_url": "https://github.com/wez/atomicparsley/releases/download/20240608.083822.1ed9031/AtomicParsleyMacOS.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 123911,
       "digest": null,
-      "download_count": 109363,
+      "download_count": 109366,
       "created_at": "2024-06-08T15:40:40Z",
       "updated_at": "2024-06-08T15:40:40Z",
       "browser_download_url": "https://github.com/wez/atomicparsley/releases/download/20240608.083822.1ed9031/AtomicParsleyWindows.zip"
