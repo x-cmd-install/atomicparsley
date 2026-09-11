@@ -7,7 +7,7 @@ about:
   latestVersion: "20240608.083822.1ed9031"
   latestRelease: "20240608.083822.1ed9031"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T04:42:32Z
+  collectedAt: 2026-09-11T20:22:32Z
 timeline:
   created: 2011-03-12
   lastCommit: 2024-12-04
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2024-06-08
   lastPrerelease: 
 popularity:
-  star: 766
+  star: 767
   watcher: 10
   fork: 75
   release: 8
@@ -88,7 +88,7 @@ total:
   commit: 193
 ---
 path: /home/runner/.x-repo/github.com/wez/atomicparsley
-collectedAt: 2026-09-11T04:42:33Z
+collectedAt: 2026-09-11T20:22:33Z
 loc:
   Cpp:
     code: 17510
