@@ -1,5 +1,5 @@
-- repo: parrot
-  subrepo: parrot/main
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: atomicparsley
   binnames:
     - atomicparsley
@@ -11,6 +11,30 @@
     - dr@jones.dk
   categories:
     - video
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: atomicparsley
+  binnames:
+    - atomicparsley
+  visiblename: atomicparsley
+  version: 20210715.151551.e7ad03a
+  origversion: 20210715.151551.e7ad03a-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - video
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: atomicparsley
+  binname: atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 20240608.083822.1ed9031-1
+  status: newest
+  summary: Command line program for reading, parsing and setting metadata in MPEG-4 files
+  licenses:
+    - GPL-2.0-or-later
 - repo: alpine_edge
   subrepo: testing
   srcname: atomicparsley
@@ -127,30 +151,6 @@
     - dr@jones.dk
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: atomicparsley
-  binnames:
-    - atomicparsley
-  visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: 20240608.083822.1ed9031-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - video
-- repo: nix_stable_25_11
-  srcname: atomicparsley
-  visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: null
-  status: newest
-  summary: CLI program for reading, parsing and setting metadata into MPEG-4 files
-  maintainers:
-    - pjones@devalot.com
-  licenses:
-    - GPL-2.0-or-later
 - repo: freebsd
   srcname: multimedia/atomicparsley
   binname: atomicparsley
@@ -198,17 +198,6 @@
     - dr@jones.dk
   categories:
     - video
-- repo: parabola
-  subrepo: extra
-  srcname: atomicparsley
-  binname: atomicparsley
-  visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: 20240608.083822.1ed9031-1
-  status: newest
-  summary: Command line program for reading, parsing and setting metadata in MPEG-4 files
-  licenses:
-    - GPL-2.0-or-later
 - repo: macports
   srcname: multimedia/AtomicParsley
   binname: AtomicParsley
@@ -265,28 +254,17 @@
     - GPLv2+
   categories:
     - Sound/Utilities
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: atomicparsley
-  binname: atomicparsley
-  visiblename: atomicparsley
-  version: 20221229.172126.d813aa6
-  origversion: 20221229.172126.d813aa6-1
-  status: outdated
-  summary: Command line program for reading, parsing and setting metadata in MPEG-4 files
-  licenses:
-    - GPL
 - repo: manjaro_testing
   subrepo: extra
   srcname: atomicparsley
   binname: atomicparsley
   visiblename: atomicparsley
-  version: 20221229.172126.d813aa6
-  origversion: 20221229.172126.d813aa6-1
-  status: outdated
+  version: 20240608.083822.1ed9031
+  origversion: 20240608.083822.1ed9031-1
+  status: newest
   summary: Command line program for reading, parsing and setting metadata in MPEG-4 files
   licenses:
-    - GPL
+    - GPL-2.0-or-later
 - repo: manjaro_unstable
   subrepo: extra
   srcname: atomicparsley
@@ -321,6 +299,17 @@
   licenses:
     - GPL-2.0-or-later
 - repo: nix_stable_25_05
+  srcname: atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: null
+  status: newest
+  summary: CLI program for reading, parsing and setting metadata into MPEG-4 files
+  maintainers:
+    - pjones@devalot.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_25_11
   srcname: atomicparsley
   visiblename: atomicparsley
   version: 20240608.083822.1ed9031
@@ -417,6 +406,19 @@
     - GPLv2
   categories:
     - Sound
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: atomicparsley
+  binnames:
+    - atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 20240608.083822.1ed9031-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - video
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: atomicparsley
@@ -433,20 +435,6 @@
     - GPLv2
   categories:
     - Sound
-- repo: solus
-  srcname: atomicparsley
-  binname: atomicparsley-dbginfo
-  visiblename: atomicparsley-dbginfo
-  version: "20240608"
-  origversion: null
-  status: outdated
-  summary: Debug symbols for atomicparsley
-  maintainers:
-    - algent@protonmail.com
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - debug
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: atomicparsley
@@ -481,8 +469,42 @@
     - GPLv2
   categories:
     - Sound
+- repo: termux
+  srcname: atomicparsley
+  binname: atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 1:20240608.083822.1ed9031
+  status: newest
+  summary: Read, parse and set metadata of MPEG-4 and 3gp files
+  maintainers:
+    - termux@github
+- repo: parabola
+  subrepo: extra
+  srcname: atomicparsley
+  binname: atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 20240608.083822.1ed9031-1
+  status: newest
+  summary: Command line program for reading, parsing and setting metadata in MPEG-4 files
+  licenses:
+    - GPL-2.0-or-later
 - repo: parrot
   subrepo: parrot-updates/main
+  srcname: atomicparsley
+  binnames:
+    - atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 20240608.083822.1ed9031-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - video
+- repo: parrot
+  subrepo: parrot/main
   srcname: atomicparsley
   binnames:
     - atomicparsley
@@ -530,32 +552,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - multimedia
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: atomicparsley
-  binnames:
-    - atomicparsley
-  visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: 20240608.083822.1ed9031-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - video
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: atomicparsley
-  binnames:
-    - atomicparsley
-  visiblename: atomicparsley
-  version: 20210715.151551.e7ad03a
-  origversion: 20210715.151551.e7ad03a-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - video
 - repo: raspbian_stable
   subrepo: main
   srcname: atomicparsley
@@ -651,6 +647,20 @@
     - GPL-2.0-or-later
   categories:
     - multimedia.video
+- repo: solus
+  srcname: atomicparsley
+  binname: atomicparsley-dbginfo
+  visiblename: atomicparsley-dbginfo
+  version: "20240608"
+  origversion: null
+  status: outdated
+  summary: Debug symbols for atomicparsley
+  maintainers:
+    - algent@protonmail.com
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - debug
 - repo: t2
   srcname: atomicparsley
   visiblename: atomicparsley
@@ -664,16 +674,6 @@
     - GPL
   categories:
     - extra/base
-- repo: termux
-  srcname: atomicparsley
-  binname: atomicparsley
-  visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: 1:20240608.083822.1ed9031
-  status: newest
-  summary: Read, parse and set metadata of MPEG-4 and 3gp files
-  maintainers:
-    - termux@github
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: atomicparsley
@@ -752,6 +752,19 @@
     - dr@jones.dk
   categories:
     - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: atomicparsley
+  binnames:
+    - atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 20240608.083822.1ed9031-1build1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - universe/misc
 - repo: void_x86_64
   subrepo: x86_64
   srcname: atomicparsley
@@ -765,21 +778,6 @@
     - orphan@voidlinux.org
   licenses:
     - GPL-2.0-or-later
-- repo: pardus_21
-  subrepo: main
-  srcname: atomicparsley
-  binnames:
-    - atomicparsley
-  visiblename: atomicparsley
-  version: 0.9.6
-  origversion: 0.9.6-2
-  status: outdated
-  maintainers:
-    - debian-multimedia@lists.debian.org
-    - dr@jones.dk
-  categories:
-    - video
-  vulnerable: true
 - repo: aosc
   srcname: app-multimedia/atomicparsley
   binname: atomicparsley
@@ -1065,6 +1063,21 @@
     - GPL-2.0-only
   categories:
     - Productivity/Networking/File-Sharing
+  vulnerable: true
+- repo: pardus_21
+  subrepo: main
+  srcname: atomicparsley
+  binnames:
+    - atomicparsley
+  visiblename: atomicparsley
+  version: 0.9.6
+  origversion: 0.9.6-2
+  status: outdated
+  maintainers:
+    - debian-multimedia@lists.debian.org
+    - dr@jones.dk
+  categories:
+    - video
   vulnerable: true
 - repo: pclinuxos
   srcname: atomicparsley
