@@ -1,40 +1,3 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: atomicparsley
-  binnames:
-    - atomicparsley
-  visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: 20240608.083822.1ed9031-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - video
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: atomicparsley
-  binnames:
-    - atomicparsley
-  visiblename: atomicparsley
-  version: 20210715.151551.e7ad03a
-  origversion: 20210715.151551.e7ad03a-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - video
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: atomicparsley
-  binname: atomicparsley
-  visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: 20240608.083822.1ed9031-1
-  status: newest
-  summary: Command line program for reading, parsing and setting metadata in MPEG-4 files
-  licenses:
-    - GPL-2.0-or-later
 - repo: alpine_edge
   subrepo: testing
   srcname: atomicparsley
@@ -77,6 +40,17 @@
   origversion: null
   status: untrusted
   summary: AtomicParsley is a lightweight command line program that can read and set iTunes-style metadata tags in MPEG-4 files and 3gp assets in 3GPP/3GPP2 files.
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: atomicparsley
+  binname: atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 20240608.083822.1ed9031-1
+  status: newest
+  summary: Command line program for reading, parsing and setting metadata in MPEG-4 files
+  licenses:
+    - GPL-2.0-or-later
 - repo: chromebrew
   srcname: atomicparsley
   visiblename: atomicparsley
@@ -151,6 +125,32 @@
     - dr@jones.dk
   categories:
     - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: atomicparsley
+  binnames:
+    - atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 20240608.083822.1ed9031-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - video
+- repo: raspbian_stable
+  subrepo: main
+  srcname: atomicparsley
+  binnames:
+    - atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 20240608.083822.1ed9031-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - video
 - repo: freebsd
   srcname: multimedia/atomicparsley
   binname: atomicparsley
@@ -178,6 +178,19 @@
   origversion: null
   status: newest
   summary: MPEG-4 command-line tool
+- repo: raspbian_testing
+  subrepo: main
+  srcname: atomicparsley
+  binnames:
+    - atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 20240608.083822.1ed9031-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - video
 - repo: homebrew
   srcname: atomicparsley
   visiblename: atomicparsley
@@ -254,7 +267,7 @@
     - GPLv2+
   categories:
     - Sound/Utilities
-- repo: manjaro_testing
+- repo: manjaro_stable
   subrepo: extra
   srcname: atomicparsley
   binname: atomicparsley
@@ -265,7 +278,7 @@
   summary: Command line program for reading, parsing and setting metadata in MPEG-4 files
   licenses:
     - GPL-2.0-or-later
-- repo: manjaro_unstable
+- repo: manjaro_testing
   subrepo: extra
   srcname: atomicparsley
   binname: atomicparsley
@@ -406,19 +419,6 @@
     - GPLv2
   categories:
     - Sound
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: atomicparsley
-  binnames:
-    - atomicparsley
-  visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: 20240608.083822.1ed9031-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - video
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: atomicparsley
@@ -433,6 +433,24 @@
     - bero+massbuild@lindev.ch
   licenses:
     - GPLv2
+  categories:
+    - Sound
+- repo: rosa_2019_1
+  subrepo: contrib/release
+  srcname: atomicparsley
+  binnames:
+    - atomicparsley
+    - atomicparsley-debuginfo
+    - atomicparsley-debugsource
+  visiblename: atomicparsley
+  version: "20221229"
+  origversion: 20221229-1
+  status: outdated
+  summary: Command-Line Program to Read and Set iTunes-style Metadata Tags
+  maintainers:
+    - mc2374@mclink.it
+  licenses:
+    - GPLv2+
   categories:
     - Sound
 - repo: openmandriva_cooker
@@ -469,16 +487,6 @@
     - GPLv2
   categories:
     - Sound
-- repo: termux
-  srcname: atomicparsley
-  binname: atomicparsley
-  visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: 1:20240608.083822.1ed9031
-  status: newest
-  summary: Read, parse and set metadata of MPEG-4 and 3gp files
-  maintainers:
-    - termux@github
 - repo: parabola
   subrepo: extra
   srcname: atomicparsley
@@ -552,8 +560,8 @@
     - pkgsrc-users@netbsd.org
   categories:
     - multimedia
-- repo: raspbian_stable
-  subrepo: main
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: atomicparsley
   binnames:
     - atomicparsley
@@ -565,37 +573,19 @@
     - dr@jones.dk
   categories:
     - video
-- repo: raspbian_testing
+- repo: raspbian_oldstable
   subrepo: main
   srcname: atomicparsley
   binnames:
     - atomicparsley
   visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: 20240608.083822.1ed9031-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - video
-- repo: rosa_2019_1
-  subrepo: contrib/release
-  srcname: atomicparsley
-  binnames:
-    - atomicparsley
-    - atomicparsley-debuginfo
-    - atomicparsley-debugsource
-  visiblename: atomicparsley
-  version: "20221229"
-  origversion: 20221229-1
+  version: 20210715.151551.e7ad03a
+  origversion: 20210715.151551.e7ad03a-1
   status: outdated
-  summary: Command-Line Program to Read and Set iTunes-style Metadata Tags
   maintainers:
-    - mc2374@mclink.it
-  licenses:
-    - GPLv2+
+    - dr@jones.dk
   categories:
-    - Sound
+    - video
 - repo: rosa_13
   subrepo: contrib/release
   srcname: atomicparsley
@@ -674,6 +664,16 @@
     - GPL
   categories:
     - extra/base
+- repo: termux
+  srcname: atomicparsley
+  binname: atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 1:20240608.083822.1ed9031
+  status: newest
+  summary: Read, parse and set metadata of MPEG-4 and 3gp files
+  maintainers:
+    - termux@github
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: atomicparsley
