@@ -1,11 +1,3 @@
-- repo: gnuguix
-  srcname: atomicparsley
-  binname: atomicparsley
-  visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: null
-  status: newest
-  summary: Metadata editor for MPEG-4 files
 - repo: alpine_edge
   subrepo: testing
   srcname: atomicparsley
@@ -135,17 +127,6 @@
     - dr@jones.dk
   categories:
     - video
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: atomicparsley
-  binname: atomicparsley
-  visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: 20240608.083822.1ed9031-1
-  status: newest
-  summary: Command line program for reading, parsing and setting metadata in MPEG-4 files
-  licenses:
-    - GPL-2.0-or-later
 - repo: freebsd
   srcname: multimedia/atomicparsley
   binname: atomicparsley
@@ -158,6 +139,14 @@
     - ports@freebsd.org
   categories:
     - multimedia
+- repo: gnuguix
+  srcname: atomicparsley
+  binname: atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: null
+  status: newest
+  summary: Metadata editor for MPEG-4 files
 - repo: homebrew
   srcname: atomicparsley
   visiblename: atomicparsley
@@ -253,6 +242,17 @@
   licenses:
     - GPL-2.0-or-later
 - repo: manjaro_testing
+  subrepo: extra
+  srcname: atomicparsley
+  binname: atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 20240608.083822.1ed9031-1
+  status: newest
+  summary: Command line program for reading, parsing and setting metadata in MPEG-4 files
+  licenses:
+    - GPL-2.0-or-later
+- repo: manjaro_unstable
   subrepo: extra
   srcname: atomicparsley
   binname: atomicparsley
@@ -409,32 +409,6 @@
     - GPLv2
   categories:
     - Sound
-- repo: raspbian_stable
-  subrepo: main
-  srcname: atomicparsley
-  binnames:
-    - atomicparsley
-  visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: 20240608.083822.1ed9031-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - video
-- repo: raspbian_testing
-  subrepo: main
-  srcname: atomicparsley
-  binnames:
-    - atomicparsley
-  visiblename: atomicparsley
-  version: 20240608.083822.1ed9031
-  origversion: 20240608.083822.1ed9031-1
-  status: newest
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - video
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: atomicparsley
@@ -564,6 +538,32 @@
   version: 20210715.151551.e7ad03a
   origversion: 20210715.151551.e7ad03a-1
   status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - video
+- repo: raspbian_stable
+  subrepo: main
+  srcname: atomicparsley
+  binnames:
+    - atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 20240608.083822.1ed9031-1
+  status: newest
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - video
+- repo: raspbian_testing
+  subrepo: main
+  srcname: atomicparsley
+  binnames:
+    - atomicparsley
+  visiblename: atomicparsley
+  version: 20240608.083822.1ed9031
+  origversion: 20240608.083822.1ed9031-1
+  status: newest
   maintainers:
     - dr@jones.dk
   categories:
@@ -831,19 +831,6 @@
     - dr@jones.dk
   categories:
     - video
-  vulnerable: true
-- repo: deepin_unstable
-  subrepo: main
-  srcname: atomicparsley
-  binnames:
-    - atomicparsley
-  visiblename: atomicparsley
-  version: 0.9.6
-  origversion: 0.9.6-2
-  status: outdated
-  maintainers:
-    - debian-multimedia@lists.debian.org
-    - dr@jones.dk
   vulnerable: true
 - repo: devuan_4_0
   subrepo: chimaera/main
