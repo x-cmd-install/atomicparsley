@@ -48,12 +48,12 @@ Total: **20,556** lines of code across **26** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 90d | 2026-08-26 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last180d | 2026-05-28 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 360d | 2025-11-29 | 0 | 0 | 2 | 0 | 2 | 0 |
-| last720d | 2024-12-04 | 0 | 0 | 4 | 0 | 5 | 1 |
+| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 90d | 2026-08-27 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last180d | 2026-05-29 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 360d | 2025-11-30 | 0 | 0 | 2 | 0 | 2 | 0 |
+| last720d | 2024-12-05 | 0 | 0 | 4 | 0 | 5 | 0 |
 
 ## Release assets
 
@@ -65,24 +65,6 @@ Total: **20,556** lines of code across **26** files in the top 5 languages.
 | [AtomicParsleyWindows.zip](https://github.com/wez/atomicparsley/releases/download/20240608.083822.1ed9031/AtomicParsleyWindows.zip) | 121.0 KiB | `native/win/x64` |
 | [AtomicParsleyWindowsX86.zip](https://github.com/wez/atomicparsley/releases/download/20240608.083822.1ed9031/AtomicParsleyWindowsX86.zip) | 112.3 KiB | `native/win/x64` |
 
-## Distribution status
-
-Reported by **88** distros on [repology.org](https://repology.org/project/atomicparsley). **36** are ✅ on the latest upstream release, **46** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `20240608.083822.1ed9031` | ✅ latest |
-| Debian 14 | `20240608.083822.1ed9031` | ✅ latest |
-| Debian 13 | `20240608.083822.1ed9031` | ✅ latest |
-| Ubuntu 26.04 LTS | `20240608.083822.1ed9031` | ✅ latest |
-| Ubuntu 24.04 LTS | `20210715.151551.e7ad03a` | ⚠️ outdated |
-| Arch | `20240608.083822.1ed9031` | ✅ latest |
-| Homebrew | `20240608.083822.1ed9031` | ✅ latest |
-| Fedora rawhide | `0.9.5` | ⚠️ outdated |
-| Nix unstable | `20240608.083822.1ed9031` | ✅ latest |
-| Void | `20240608.083822` | ✅ latest |
-| Alpine edge | `20240608` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for atomicparsley lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `atomicparsley` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -92,4 +74,4 @@ Install metadata for atomicparsley lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:11:22Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:46:01Z._
